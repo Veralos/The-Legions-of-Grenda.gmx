@@ -59,6 +59,10 @@ pressed = 0;
         active = true;
     }
 }
+
+if (pressed == 1) {
+    audio_play_sound(snd_press, 0, false);
+}
 </string>
           </argument>
         </arguments>

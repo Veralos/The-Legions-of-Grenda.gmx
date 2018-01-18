@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (other.interact) {
+            <string>if (!active) {
+    audio_play_sound(snd_hit_crystal, 0, false);
     active = true;
 }
 </string>
@@ -50,7 +51,10 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>active = true;
+            <string>if (!active) {
+    audio_play_sound(snd_hit_crystal, 0, false);
+    active = true;
+}
 </string>
           </argument>
         </arguments>

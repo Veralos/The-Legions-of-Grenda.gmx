@@ -85,6 +85,7 @@ obj_hero.boomerang = true;
     }
     
     if (angle &lt; 0) {
+        audio_play_sound(snd_fly, 0, false);
         angle += 360;
     }
     
