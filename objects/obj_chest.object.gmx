@@ -25,8 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (distance_to_point(obj_hero.x - 8, obj_hero.y - 8) &lt; 24 &amp;&amp; !obj_hero.has) {
-    instance_create(room_width /2 , room_height / 2, obj_got_boomerang);
+            <string>if (distance_to_point(obj_hero.x - 8, obj_hero.y - 8) &lt; 20 &amp;&amp; !obj_hero.has) {
+    instance_create(obj_control.place_xpos + obj_control.place_width / 2, obj_control.place_ypos + obj_control.place_height * (3 / 4), obj_got_boomerang);
     obj_hero.has = true;
 }
 </string>
