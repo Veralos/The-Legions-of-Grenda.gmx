@@ -24,36 +24,42 @@
     <sound>sound\snd_fly</sound>
   </sounds>
   <sprites name="sprites">
-    <sprite>sprites\spr_floor</sprite>
-    <sprite>sprites\spr_border_corner_lu</sprite>
-    <sprite>sprites\spr_border_corner_ru</sprite>
-    <sprite>sprites\spr_border_corner_rd</sprite>
-    <sprite>sprites\spr_border_corner_ld</sprite>
-    <sprite>sprites\spr_wall_l</sprite>
-    <sprite>sprites\spr_wall_r</sprite>
-    <sprite>sprites\spr_wall_d</sprite>
-    <sprite>sprites\spr_wall_u</sprite>
+    <sprites name="walls">
+      <sprite>sprites\spr_floor</sprite>
+      <sprite>sprites\spr_border_corner_lu</sprite>
+      <sprite>sprites\spr_border_corner_ru</sprite>
+      <sprite>sprites\spr_border_corner_rd</sprite>
+      <sprite>sprites\spr_border_corner_ld</sprite>
+      <sprite>sprites\spr_wall_l</sprite>
+      <sprite>sprites\spr_wall_r</sprite>
+      <sprite>sprites\spr_wall_d</sprite>
+      <sprite>sprites\spr_wall_u</sprite>
+    </sprites>
     <sprite>sprites\pallete</sprite>
-    <sprite>sprites\spr_hero</sprite>
+    <sprites name="hero">
+      <sprite>sprites\spr_hero_mask</sprite>
+      <sprite>sprites\spr_hero</sprite>
+      <sprite>sprites\spr_hero_walk</sprite>
+      <sprite>sprites\spr_hero_right</sprite>
+      <sprite>sprites\spr_hero_walk_right</sprite>
+      <sprite>sprites\spr_hero_walk_left</sprite>
+      <sprite>sprites\spr_hero_left</sprite>
+      <sprite>sprites\spr_hero_up</sprite>
+      <sprite>sprites\spr_hero_walk_up</sprite>
+    </sprites>
     <sprite>sprites\spr_gaston</sprite>
     <sprite>sprites\spr_grenda</sprite>
-    <sprite>sprites\spr_hero_mask</sprite>
-    <sprite>sprites\spr_hero_walk</sprite>
-    <sprite>sprites\spr_hero_right</sprite>
-    <sprite>sprites\spr_hero_walk_right</sprite>
-    <sprite>sprites\spr_hero_walk_left</sprite>
-    <sprite>sprites\spr_hero_left</sprite>
-    <sprite>sprites\spr_hero_up</sprite>
-    <sprite>sprites\spr_hero_walk_up</sprite>
     <sprite>sprites\spr_boomerang</sprite>
     <sprite>sprites\spr_block</sprite>
     <sprite>sprites\spr_background</sprite>
-    <sprite>sprites\spr_door</sprite>
-    <sprite>sprites\spr_lock</sprite>
-    <sprite>sprites\spr_lock_enemy</sprite>
-    <sprite>sprites\spr_lock_puzzle</sprite>
-    <sprite>sprites\spr_final_lock</sprite>
-    <sprite>sprites\spr_dot</sprite>
+    <sprites name="door">
+      <sprite>sprites\spr_door</sprite>
+      <sprite>sprites\spr_lock</sprite>
+      <sprite>sprites\spr_lock_enemy</sprite>
+      <sprite>sprites\spr_lock_puzzle</sprite>
+      <sprite>sprites\spr_final_lock</sprite>
+      <sprite>sprites\spr_dot</sprite>
+    </sprites>
     <sprite>sprites\spr_wall</sprite>
     <sprite>sprites\spr_wall_visible</sprite>
     <sprite>sprites\sprite26</sprite>
@@ -94,10 +100,12 @@
     <object>objects\obj_wall</object>
     <object>objects\obj_wall_visible</object>
     <object>objects\obj_key</object>
-    <object>objects\obj_lock</object>
-    <object>objects\obj_lock_enemy</object>
-    <object>objects\obj_lock_puzzle</object>
-    <object>objects\obj_final_lock</object>
+    <objects name="lock">
+      <object>objects\obj_lock</object>
+      <object>objects\obj_lock_enemy</object>
+      <object>objects\obj_lock_puzzle</object>
+      <object>objects\obj_final_lock</object>
+    </objects>
     <object>objects\obj_grenda</object>
     <object>objects\obj_gaston</object>
     <object>objects\obj_pit</object>
@@ -110,11 +118,13 @@
     <object>objects\obj_crystal</object>
     <object>objects\obj_puzzle_element</object>
     <object>objects\obj_chest</object>
-    <object>objects\obj_blue_orb</object>
-    <object>objects\obj_orb</object>
-    <object>objects\obj_red_orb</object>
-    <object>objects\obj_purple_orb</object>
-    <object>objects\obj_yellow_orb</object>
+    <objects name="orb">
+      <object>objects\obj_blue_orb</object>
+      <object>objects\obj_orb</object>
+      <object>objects\obj_red_orb</object>
+      <object>objects\obj_purple_orb</object>
+      <object>objects\obj_yellow_orb</object>
+    </objects>
     <object>objects\obj_destination</object>
     <object>objects\obj_portal</object>
     <object>objects\obj_win</object>
