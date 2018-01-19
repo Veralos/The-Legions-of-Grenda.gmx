@@ -27,6 +27,10 @@
             <kind>1</kind>
             <string>surface_resize(application_surface, 256, 224);
 window_set_size(256 * 3, 224 * 3);
+window_set_position(
+    display_get_width() / 2 - 256 * 3 / 2,
+    display_get_height() / 2 - 224 * 3 / 2
+);
 place_width = 256;
 place_height = 192;
 place_xpos = (obj_hero.x div 256) * place_width;

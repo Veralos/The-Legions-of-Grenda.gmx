@@ -35,6 +35,7 @@
     <sprite>sprites\spr_wall_u</sprite>
     <sprite>sprites\pallete</sprite>
     <sprite>sprites\spr_hero</sprite>
+    <sprite>sprites\spr_gaston</sprite>
     <sprite>sprites\spr_grenda</sprite>
     <sprite>sprites\spr_hero_mask</sprite>
     <sprite>sprites\spr_hero_walk</sprite>
@@ -98,6 +99,7 @@
     <object>objects\obj_lock_puzzle</object>
     <object>objects\obj_final_lock</object>
     <object>objects\obj_grenda</object>
+    <object>objects\obj_gaston</object>
     <object>objects\obj_pit</object>
     <object>objects\obj_water</object>
     <object>objects\obj_warp</object>
