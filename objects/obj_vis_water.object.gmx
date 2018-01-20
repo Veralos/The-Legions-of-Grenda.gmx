@@ -3,12 +3,12 @@
   <spriteName>spr_water</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>100</depth>
+  <depth>101</depth>
   <persistent>0</persistent>
-  <parentName>obj_resetme</parentName>
+  <parentName>self</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
-    <event eventtype="7" enumb="10">
+    <event eventtype="0" enumb="0">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -25,11 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>event_inherited();
-
-if (place_meeting(x, y, obj_vis_ice)) {
-    instance_change(obj_ice, true);
-}
+            <string>instance_create(x, y, obj_water);
 </string>
           </argument>
         </arguments>

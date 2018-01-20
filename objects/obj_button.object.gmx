@@ -52,16 +52,13 @@ pressed = 0;
             <string>if (place_meeting(x, y, obj_block)) {
     alarm[0] = 2;
     
-    if (pressed &lt; 3) {
+    if (pressed &lt; 4) {
         pressed++;
     }
-    else {
+    else if (!active) {
+        audio_play_sound(snd_press, 0, false);
         active = true;
     }
-}
-
-if (pressed == 1) {
-    audio_play_sound(snd_press, 0, false);
 }
 </string>
           </argument>
@@ -87,10 +84,11 @@ if (pressed == 1) {
             <kind>1</kind>
             <string>alarm[0] = 2;
 
-if (pressed &lt; 3) {
+if (pressed &lt; 4) {
     pressed++;
 }
-else {
+else if (!active) {
+    audio_play_sound(snd_press, 0, false);
     active = true;
 }
 </string>

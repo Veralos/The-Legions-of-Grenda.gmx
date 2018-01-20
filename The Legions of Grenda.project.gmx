@@ -26,6 +26,7 @@
   <sprites name="sprites">
     <sprites name="walls">
       <sprite>sprites\spr_floor</sprite>
+      <sprite>sprites\spr_ice</sprite>
       <sprite>sprites\spr_border_corner_lu</sprite>
       <sprite>sprites\spr_border_corner_ru</sprite>
       <sprite>sprites\spr_border_corner_rd</sprite>
@@ -84,6 +85,7 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\scr_push_block.gml</script>
+    <script>scripts\scr_move_block.gml</script>
     <script>scripts\scr_draw_map.gml</script>
   </scripts>
   <fonts name="fonts">
@@ -109,7 +111,10 @@
     <object>objects\obj_grenda</object>
     <object>objects\obj_gaston</object>
     <object>objects\obj_pit</object>
+    <object>objects\obj_vis_water</object>
+    <object>objects\obj_vis_ice</object>
     <object>objects\obj_water</object>
+    <object>objects\obj_ice</object>
     <object>objects\obj_warp</object>
     <object>objects\obj_enemy</object>
     <object>objects\obj_wanderer</object>
