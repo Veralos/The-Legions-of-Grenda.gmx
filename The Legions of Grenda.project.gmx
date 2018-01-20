@@ -78,6 +78,7 @@
     <sprite>sprites\spr_orb</sprite>
     <sprite>sprites\spr_portal</sprite>
     <sprite>sprites\spr_destination</sprite>
+    <sprite>sprites\spr_snow</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_place</background>
@@ -134,6 +135,8 @@
     <object>objects\obj_portal</object>
     <object>objects\obj_win</object>
     <object>objects\obj_got_boomerang</object>
+    <object>objects\obj_snow</object>
+    <object>objects\obj_pickup</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_dungeon</room>
