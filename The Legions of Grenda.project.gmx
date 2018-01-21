@@ -72,6 +72,7 @@
     <sprite>sprites\spr_heart</sprite>
     <sprite>sprites\spr_wanderer</sprite>
     <sprite>sprites\spr_hitspark</sprite>
+    <sprite>sprites\spr_diespark</sprite>
     <sprite>sprites\spr_button</sprite>
     <sprite>sprites\spr_crystal</sprite>
     <sprite>sprites\spr_chest</sprite>
