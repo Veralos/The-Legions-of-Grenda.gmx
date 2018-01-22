@@ -191,10 +191,12 @@ obj_hero.boomerang = true;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>audio_play_sound(snd_teleport, 0, false);
-obj_hero.x = other.x + 8;
-obj_hero.y = other.y + 4;
-instance_destroy();
+            <string>if (interact) {
+    audio_play_sound(snd_teleport, 0, false);
+    obj_hero.x = other.x + 8;
+    obj_hero.y = other.y + 4;
+    instance_destroy();
+}
 </string>
           </argument>
         </arguments>

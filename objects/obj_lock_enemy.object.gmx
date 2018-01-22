@@ -49,7 +49,7 @@
           <argument>
             <kind>1</kind>
             <string>if (obj_control.state == obj_control.state_type.base_state) {
-    if (!instance_exists(obj_enemy)) {
+    if (!instance_exists(obj_enemy) &amp;&amp; can_unlock) {
         instance_destroy();
     }
 }
@@ -82,6 +82,7 @@ if (y mod 192 == 0) {
 }
 
 image_speed = 0;
+can_unlock = instance_exists(obj_enemy);
 </string>
           </argument>
         </arguments>
