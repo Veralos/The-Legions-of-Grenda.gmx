@@ -171,30 +171,6 @@ sprite_walk[3] = spr_hero_walk;
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="obj_pentrance">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>x = obj_pexit.x + 8;
-y = obj_pexit.y + 4;
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
     <event eventtype="4" ename="obj_portal">
       <action>
         <libid>1</libid>
@@ -213,7 +189,7 @@ y = obj_pexit.y + 4;
           <argument>
             <kind>1</kind>
             <string>with (obj_control) {
-    //audio_play_sound(snd_die, 0, false);
+    audio_play_sound(snd_portal, 0, false);
     //hp = 5;
     obj_hero.x = obj_destination.x;
     obj_hero.y = obj_destination.y;

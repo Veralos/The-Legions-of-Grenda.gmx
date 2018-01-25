@@ -22,6 +22,9 @@
     <sound>sound\snd_hit_crystal</sound>
     <sound>sound\snd_press</sound>
     <sound>sound\snd_fly</sound>
+    <sound>sound\snd_portal</sound>
+    <sound>sound\snd_portal2</sound>
+    <sound>sound\snd_smash_orb</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="walls">
