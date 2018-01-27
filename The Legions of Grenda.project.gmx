@@ -25,6 +25,9 @@
     <sound>sound\snd_portal</sound>
     <sound>sound\snd_portal2</sound>
     <sound>sound\snd_smash_orb</sound>
+    <sound>sound\snd_light</sound>
+    <sound>sound\snd_light_b</sound>
+    <sound>sound\snd_stop_fire</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="walls">
@@ -85,6 +88,9 @@
     <sprite>sprites\spr_snow</sprite>
     <sprite>sprites\spr_pentrance</sprite>
     <sprite>sprites\spr_pexit</sprite>
+    <sprite>sprites\spr_torch</sprite>
+    <sprite>sprites\spr_torch_lit</sprite>
+    <sprite>sprites\spr_fire</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_place</background>
@@ -95,6 +101,7 @@
     <script>scripts\scr_move_block.gml</script>
     <script>scripts\scr_draw_map.gml</script>
   </scripts>
+  <shaders name="shaders"/>
   <fonts name="fonts">
     <font>fonts\font_hud</font>
     <font>fonts\fnt_win</font>
@@ -128,6 +135,7 @@
     <object>objects\obj_hitspark</object>
     <object>objects\obj_button</object>
     <object>objects\obj_crystal</object>
+    <object>objects\obj_torch</object>
     <object>objects\obj_puzzle_element</object>
     <object>objects\obj_chest</object>
     <objects name="orb">
@@ -142,6 +150,7 @@
     <object>objects\obj_win</object>
     <object>objects\obj_got_boomerang</object>
     <object>objects\obj_snow</object>
+    <object>objects\obj_fire</object>
     <object>objects\obj_pickup</object>
     <object>objects\obj_pentrance</object>
     <object>objects\obj_pexit</object>
