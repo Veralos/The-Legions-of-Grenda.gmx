@@ -164,6 +164,9 @@ audio_play_sound(snd_music, 0, true);
             with (obj_boomerang) {
                 instance_destroy();
             }
+            with (obj_explosion) {
+                instance_destroy();
+            }
             state = state_type.base_state;
             instance_activate_region(view_xview[0], view_yview[0] + 32, view_wview[0], view_hview[0] - 32, true);
             reset = true;

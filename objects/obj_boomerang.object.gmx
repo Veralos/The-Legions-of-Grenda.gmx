@@ -119,6 +119,10 @@ obj_hero.boomerang = true;
         dir = point_direction(x, y, obj_hero.x, obj_hero.y);
     }
     
+    with (obj_bomb) {
+        solid = false
+    }
+    
     if (interact &amp;&amp; !place_free(x, y)) {
         audio_play_sound(snd_hit_wall, 0, false);
         interact = false;
@@ -127,6 +131,10 @@ obj_hero.boomerang = true;
             pickup.x = round(x / 16) * 16 + 8;
             pickup.y = round(y / 16) * 16 + 8;
         }
+    }
+    
+    with (obj_bomb) {
+        solid = true;
     }
     
     if (interact) {

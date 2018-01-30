@@ -28,6 +28,7 @@
     <sound>sound\snd_light</sound>
     <sound>sound\snd_light_b</sound>
     <sound>sound\snd_stop_fire</sound>
+    <sound>sound\snd_explode</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="walls">
@@ -91,6 +92,8 @@
     <sprite>sprites\spr_torch</sprite>
     <sprite>sprites\spr_torch_lit</sprite>
     <sprite>sprites\spr_fire</sprite>
+    <sprite>sprites\spr_bomb</sprite>
+    <sprite>sprites\spr_explosion</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_place</background>
@@ -101,7 +104,6 @@
     <script>scripts\scr_move_block.gml</script>
     <script>scripts\scr_draw_map.gml</script>
   </scripts>
-  <shaders name="shaders"/>
   <fonts name="fonts">
     <font>fonts\font_hud</font>
     <font>fonts\fnt_win</font>
@@ -154,6 +156,8 @@
     <object>objects\obj_pickup</object>
     <object>objects\obj_pentrance</object>
     <object>objects\obj_pexit</object>
+    <object>objects\obj_bomb</object>
+    <object>objects\obj_explosion</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_dungeon</room>
